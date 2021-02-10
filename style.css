@@ -1,0 +1,68 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #161223;
+	overflow-x: hidden;
+}
+
+/* Page content */
+.content {
+	position: relative;
+	display: block;
+	width: 100vw;
+	height: 1000px;
+	background-color: #161223;
+	z-index: 2;
+}
+
+.content .logo {
+	margin: auto;
+	display: block;
+	width: 25em;
+	height: auto;
+}
+
+/* Parallax stuff */
+.hero,
+.hero-layer {
+	height: 850px;
+	width: 100vw;
+	overflow: hidden;
+}
+.hero {
+	position: relative;
+	display: block;
+}
+.hero-layer {
+	background-position: bottom center;
+	background-size: auto 100%;
+	background-repeat: repeat-x;
+	position: fixed;
+	display: block;
+	height: 1000px;
+}
+
+#hero-7 {
+	background-image: url('images/Parallax1.png');
+}
+#hero-6 {
+	background-image: url('images/Parallax2.png');
+}
+#hero-5 {
+	background-image: url('images/Parallax3.png');
+}
+#hero-4 {
+	background-image: url('images/Parallax4.png');
+}
+#hero-3 {
+	background-image: url('images/Parallax5.png');
+}
+#hero-2 {
+	background-image: url('images/Parallax6.png');
+}
+#hero-1 {
+	background-image: url('images/Parallax7.png');
+}
+#hero-0 {
+	background-image: url('images/Parallax8.png');
+}
