@@ -23,32 +23,40 @@ body {
 	display: block;
 }
 
-.landing-hero {
+.button {
+	background-color: #cd412b;
+	font-size: 1.25rem;
+	justify-content: center;
+	padding-bottom: calc(0.375em - 1px);
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	padding-top: calc(0.375em - 1px);
 	text-align: center;
+	white-space: nowrap;
+	align-items: center;
+	display: inline-flex;
+	height: 2.25rem;
+	line-height: 1.5;
+	font-weight: 700;
+	transition: all 0.15s ease;
+	color: #fff;
+	text-decoration: none;
 }
 
-.landing-hero .logo {
-	margin: auto;
-	display: block;
-	width: 25rem;
-	height: auto;
+.button:hover {
+	cursor: pointer;
+	transform: scale(0.975);
 }
 
-.landing-hero h1 {
-	font-weight: 800;
-	font-size: 2.5rem;
-	padding-top: 1rem;
-	margin: auto;
-	width: 50%;
-}
-
-.landing-hero h3 {
-	color: rgba(246, 234, 225, 0.9);
-	padding-top: 1rem;
-	font-size: 1rem;
-	font-weight: 400;
-	margin: auto;
-	width: 50%;
+.button .fab {
+	margin-left: calc(-0.375em - 1px);
+	margin-right: 0.1875em;
+	height: 1.5em;
+	width: 1.5em;
+	display: flex;
+	justify-content: center;
+	vertical-align: middle;
+	height: 1.2rem;
 }
 
 /* Parallax stuff */
@@ -69,6 +77,9 @@ body {
 	position: fixed;
 	display: block;
 	height: 1000px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	pointer-events: none;
 }
 
 #hero-7 {
@@ -94,4 +105,36 @@ body {
 }
 #hero-0 {
 	background-image: url('images/Parallax8.png');
+}
+
+.landing-hero {
+	text-align: center;
+	left: 50%;
+	top: 15%;
+	width: 75%;
+	pointer-events: all;
+}
+
+.landing-hero .logo {
+	margin: auto;
+	display: block;
+	width: 25rem;
+	height: auto;
+}
+
+.landing-hero h1 {
+	font-weight: 800;
+	font-size: 2.5rem;
+	padding-top: 2rem;
+	margin: auto;
+	width: 50%;
+}
+
+.landing-hero h3 {
+	color: rgba(246, 234, 225, 0.9);
+	font-size: 1rem;
+	font-weight: 400;
+	margin: auto;
+	padding-bottom: 15px;
+	width: 50%;
 }

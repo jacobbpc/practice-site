@@ -8,7 +8,7 @@ function createParallax() {
 			const yPos = -((top * speed) / 100)
 			layer.setAttribute(
 				'style',
-				`transform: translate3d(0px, ${yPos}px, 0px)`
+				`transform: translate3d(-50%, ${yPos}px, 0px)`
 			)
 		}
 	})
