@@ -3,6 +3,8 @@ body {
 	margin: 0;
 	background-color: #161223;
 	overflow-x: hidden;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
 }
 
 /* Page content */
@@ -15,11 +17,23 @@ body {
 	z-index: 2;
 }
 
-.content .logo {
+.container {
+	width: 80%;
+	margin: auto;
+	display: block;
+}
+
+.landing-hero .logo {
 	margin: auto;
 	display: block;
 	width: 25em;
 	height: auto;
+}
+
+.landing-hero h1 {
+	text-align: center;
+	font-weight: 800;
+	font-size: 3em;
 }
 
 /* Parallax stuff */
